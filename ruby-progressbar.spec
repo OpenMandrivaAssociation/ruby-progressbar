@@ -9,6 +9,7 @@ Group:		Development/Ruby
 License:	GPL
 URL:		http://namazu.org/~satoru/ruby-progressbar/
 Source0:	%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	ruby
 BuildRequires:	ruby
 BuildArch:	noarch

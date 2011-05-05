@@ -1,5 +1,5 @@
 %define version	0.9
-%define release	%mkrel 6
+%define release	%mkrel 7
 
 Name:		ruby-progressbar
 Summary:	A Text Progress Bar Library for Ruby

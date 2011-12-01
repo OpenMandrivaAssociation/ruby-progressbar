@@ -21,12 +21,12 @@ A Text Progress Bar Library for Ruby.
 %setup -q
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p ${RPM_BUILD_ROOT}%{ruby_sitelibdir}
-cp progressbar.rb ${RPM_BUILD_ROOT}%{ruby_sitelibdir}
+rm -rf %{buildroot}
+mkdir -p %{buildroot}%{ruby_sitelibdir}
+cp progressbar.rb %{buildroot}%{ruby_sitelibdir}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %check
 ruby test.rb

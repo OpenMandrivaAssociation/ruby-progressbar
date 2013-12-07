@@ -5,7 +5,7 @@ Summary:	Ruby/ProgressBar is a text progress bar library for Ruby
 Name:		ruby-%{rbname}
 
 Version:	0.11.0
-Release:	3
+Release:	4
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/peleteiro/progressbar

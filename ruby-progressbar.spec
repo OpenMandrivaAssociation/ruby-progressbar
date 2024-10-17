@@ -8,7 +8,7 @@ Version:	0.21.0
 Release:	4
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
-URL:		http://github.com/peleteiro/progressbar
+URL:		https://github.com/peleteiro/progressbar
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems >= 1.3.6
 BuildArch:	noarch
